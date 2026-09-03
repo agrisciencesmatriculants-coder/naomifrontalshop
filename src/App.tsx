@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Route, Routes, useLocation } from 'react-router';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import { AppProvider } from '@/store/AppContext';
 import Layout from '@/components/Layout';
 import Home from '@/pages/Home';
